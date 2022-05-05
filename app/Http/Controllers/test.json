@@ -1,0 +1,247 @@
+[
+    {
+        "text": "Home",
+        "href": "",
+        "icon": "empty",
+        "target": "_self",
+        "title": "",
+        "type": "home"
+    },
+    {
+        "text": "Menu",
+        "href": "",
+        "icon": "empty",
+        "target": "_self",
+        "title": "",
+        "type": "menu_1"
+    },
+    {
+        "text": "Items",
+        "href": "",
+        "icon": "empty",
+        "target": "_self",
+        "title": "",
+        "type": "custom",
+        "children": [
+            {
+                "text": "Foods",
+                "href": "",
+                "icon": "empty",
+                "target": "_self",
+                "title": "",
+                "type": "items"
+            },
+            {
+                "text": "Cart",
+                "href": "",
+                "icon": "empty",
+                "target": "_self",
+                "title": "",
+                "type": "cart"
+            },
+            {
+                "text": "Checkout",
+                "href": "",
+                "icon": "empty",
+                "target": "_self",
+                "title": "",
+                "type": "checkout"
+            }
+        ]
+    },
+    {
+        "text": "About",
+        "href": "",
+        "icon": "empty",
+        "target": "_self",
+        "title": "",
+        "type": "custom",
+        "children": [
+            {
+                "text": "Dynamic Pages",
+                "href": "",
+                "icon": "empty",
+                "target": "_self",
+                "title": "",
+                "type": "custom",
+                "children": [
+                    {
+                        "text": "About Us",
+                        "href": "",
+                        "icon": "empty",
+                        "target": "_self",
+                        "title": "",
+                        "type": "1"
+                    },
+                    {
+                        "text": "Privacy Policy",
+                        "href": "",
+                        "icon": "empty",
+                        "target": "_self",
+                        "title": "",
+                        "type": "4"
+                    },
+                    {
+                        "text": "Terms & Conditions",
+                        "href": "",
+                        "icon": "empty",
+                        "target": "_self",
+                        "title": "",
+                        "type": "3"
+                    },
+                    {
+                        "text": "yuyuyuyuyu",
+                        "href": "",
+                        "icon": "empty",
+                        "target": "_self",
+                        "title": "",
+                        "type": "8"
+
+                    }
+                ]
+            },
+            {
+                "text": "Gallery",
+                "href": "",
+                "icon": "empty",
+                "target": "_self",
+                "title": "",
+                "type": "gallery"
+            },
+            {
+                "text": "FAQ",
+                "href": "",
+                "icon": "empty",
+                "target": "_self",
+                "title": "",
+                "type": "faq"
+            },
+            {
+                "text": "Career",
+                "href": "",
+                "icon": "empty",
+                "target": "_self",
+                "title": "",
+                "type": "career"
+            },
+            {
+                "text": "Team Members",
+                "href": "",
+                "icon": "empty",
+                "target": "_self",
+                "title": "",
+                "type": "team"
+            },
+            {
+                "text": "Reservation",
+                "href": "",
+                "icon": "empty",
+                "target": "_self",
+                "title": "",
+                "type": "reservation"
+            },
+            {
+                "text": "Unlimited Levels",
+                "href": "",
+                "icon": "empty",
+                "target": "_self",
+                "title": "",
+                "type": "custom",
+                "children": [
+                    {
+                        "text": "Level 3-1",
+                        "href": "",
+                        "icon": "empty",
+                        "target": "_self",
+                        "title": "",
+                        "type": "custom"
+                    },
+                    {
+                        "text": "Level 3-2",
+                        "href": "",
+                        "icon": "empty",
+                        "target": "_self",
+                        "title": "",
+                        "type": "custom",
+                        "children": [
+                            {
+                                "text": "Level 4-1",
+                                "href": "",
+                                "icon": "empty",
+                                "target": "_self",
+                                "title": "",
+                                "type": "custom"
+                            },
+                            {
+                                "text": "Level 4-2",
+                                "href": "",
+                                "icon": "empty",
+                                "target": "_self",
+                                "title": "",
+                                "type": "custom"
+                            },
+                            {
+                                "text": "Level 4-3",
+                                "href": "",
+                                "icon": "empty",
+                                "target": "_self",
+                                "title": "",
+                                "type": "custom",
+                                "children": [
+                                    {
+                                        "text": "Level 5-1",
+                                        "href": "",
+                                        "icon": "empty",
+                                        "target": "_self",
+                                        "title": "",
+                                        "type": "custom"
+                                    },
+                                    {
+                                        "text": "Level 5-2",
+                                        "href": "",
+                                        "icon": "empty",
+                                        "target": "_self",
+                                        "title": "",
+                                        "type": "custom"
+                                    },
+                                    {
+                                        "text": "Level 5-3",
+                                        "href": "",
+                                        "icon": "empty",
+                                        "target": "_self",
+                                        "title": "",
+                                        "type": "custom"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Level 3-3",
+                        "href": "",
+                        "icon": "empty",
+                        "target": "_self",
+                        "title": "",
+                        "type": "custom"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Blogs",
+        "href": "",
+        "icon": "empty",
+        "target": "_self",
+        "title": "",
+        "type": "blogs"
+    },
+    {
+        "text": "Contact",
+        "href": "",
+        "icon": "empty",
+        "target": "_self",
+        "title": "",
+        "type": "contact"
+    }
+]
