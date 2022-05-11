@@ -48,17 +48,14 @@ class frontController extends Controller
 
 
 
-        $s ="   fly me   to   the moon  ";
-
-        $a = trim($s);
-
-        $arr  =explode(" ",$a);
-
-        $count = count($arr);
-
-        $b = strlen($arr[$count - 1]);
 
 
-        print_r($arr);
+
+        $week =  GetWeekDays($request->date,$request->end,$request->num);
+
+
+        print_r($week);
+
+
     }
 }

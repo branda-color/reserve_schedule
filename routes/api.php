@@ -61,7 +61,7 @@ Route::prefix('back')->group(function(){
     
     Route::prefix('opentime')->group(function(){
         
-        Route::get('/',[OpenTimeController::class,'GetOpenTime']);
+        Route::get('/{id}',[OpenTimeController::class,'GetOpenTime']);
         Route::post('/',[OpenTimeController::class,'CreateOpenTime']);
         Route::put('/{id}',[OpenTimeController::class,'UpdateOpenTime']);
         Route::delete('/{id}', [OpenTimeController::class,'DeleteOpentime']);

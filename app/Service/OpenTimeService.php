@@ -7,6 +7,16 @@ use App\Models\OpenTime;
 
 class OpenTimeService
 {
+    public function GetTime(int $userid, int $year, string $view,?int $month, ?int $week, ?int $day)
+    {
+        switch ($view){
+
+            case 'year':
+
+        }
+        
+    }
+
     public function InsertTime(int $userid, int $year, int $month, int $week, int $day, array $time): OpenTime
     {
 
@@ -22,7 +32,7 @@ class OpenTimeService
         return $InsertId;
     }
 
-    public function updateTime(int $id, ?int $year, ?int $month, ?int $week, ?int $day, ?array $time): void
+    public function UpdateTime(int $id, ?int $year, ?int $month, ?int $week, ?int $day, ?array $time): void
     {
         $openTime = OpenTime::find($id);
 
@@ -35,7 +45,7 @@ class OpenTimeService
         $openTime->save();
     }
 
-    public function DeleteTime(int $id):void
+    public function DeleteTime(int $id): void
     {
         $event = OpenTime::find($id);
         $event->delete();

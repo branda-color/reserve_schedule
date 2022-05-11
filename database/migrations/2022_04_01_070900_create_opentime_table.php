@@ -24,7 +24,8 @@ class CreateOpentimeTable extends Migration
             $table->tinyInteger('month')->comment('月份');
             $table->tinyInteger('week')->comment('星期');
             $table->tinyInteger('day')->comment('日期');
-            $table->json('time')->nullable()->comment('詳細開放時間');
+            $table->timestamp('start_time')->nullable();
+            $table->timestamp('end_time')->nullable();
             $table->enum('status', ['N', 'Y', 'D', 'M'])->default('Y')->comment('上架狀況');
             $table->timestamps();
         });
